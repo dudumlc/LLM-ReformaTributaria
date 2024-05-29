@@ -18,6 +18,8 @@ from scipy.spatial.distance import cosine
 
 load_dotenv(find_dotenv())
 
+st.secrets()
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # DATAFRAME COM OS TEXTOS VETORIZADOS
