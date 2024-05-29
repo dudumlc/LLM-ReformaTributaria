@@ -4,7 +4,6 @@ bs4
 openai
 pandas 
 numpy
-os
 tiktoken
 langchain_openai
 langchain_core
