@@ -100,5 +100,4 @@ if envio_pergunta:
         st.markdown(f"<h1 style='font-size:15px;'>Referências:</h1>", unsafe_allow_html=True)
         st.markdown(f"1. [{urls[0]}](%s)" % urls[0])
         st.markdown(f"2. [{urls[1]}](%s)" % urls[1])
-        st.markdown(f"3. [{urls[2]}](%s)" % urls[2])
 
