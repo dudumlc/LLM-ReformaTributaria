@@ -39,7 +39,7 @@ llm = OpenAI( api_key = st.secrets['OPENAI_API_KEY'],
              )
 
 # CABEÇALHO DA INTERFACE
-st.header("🤖 ASSITENTE - ESPECIALISTA EM REFORMA TRIBUTÁRIA")
+st.header("🤖 ASSISTENTE - ESPECIALISTA EM REFORMA TRIBUTÁRIA")
 
 # ENVIO PERGUNTA DO USUÁRIO
 text = st.text_input("Faça sua pergunta",)
